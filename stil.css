@@ -1,0 +1,170 @@
+body {
+
+background-image: linear-gradient(to right,purple,white);
+margin: auto;
+margin-top:1px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 5px;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+nav {
+
+text-align: center;
+height: 50px;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+
+a.menu {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    display: block;
+    color: white;
+    background-color: black;
+    padding:8px 12px 8px 12px;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color:rgb(223, 123, 226);
+    border-radius:2px;
+}
+
+a.menu:hover {
+
+    background-color:rgb(25, 4, 26);
+    transition: ease-in 250ms;
+}
+
+a:active {
+
+transform: scale(1.1);
+
+}
+
+header {
+
+margin: auto;
+background-color: black;
+height:200px;
+width:95%;
+border-radius: 10px;
+background-color:rgb(223, 123, 226);
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+
+}
+
+h1 {
+
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 3px 3px 3px purple; 
+
+}
+
+.colorful {
+
+    color: black;
+    
+}
+
+article {
+
+margin: auto;
+margin-top: 5px;
+height: 200px;
+width:95%;
+box-sizing: border-box;
+padding: 10px 20px 10px 20px;
+text-align: justify;
+background-color: black;
+border-radius: 10px;
+
+
+}
+
+p {
+
+    color: white;
+}
+
+main {
+
+margin: auto;
+margin-top: 5px;
+border-radius: 10px;
+height: 500px;
+width:95%;
+background-image: url("https://img1.goodfon.com/wallpaper/nbig/2/a3/hi-tech-technology-rabochiy-1327.jpg");
+background-size:100% 100%;
+background-repeat: no-repeat;
+padding: 20px;
+text-align: center;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+main > h1 {
+
+font-size:60px;
+color: white;
+display: block;
+padding: 80px;
+
+
+}
+
+article#about {
+
+    height: 600px;
+    width: 95%;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+article#services {
+
+    height: 600px;
+    width: 95%;
+    background-color:greenyellow;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+article#contact {
+
+    height:600px;
+    width: 95%;
+    background-color:rgb(101, 22, 117);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+a.arrow {
+
+margin: auto;
+color: white;
+font-size: 25px;
+
+}
